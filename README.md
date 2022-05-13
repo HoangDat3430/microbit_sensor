@@ -16,7 +16,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/hoangdat3430/dndnuntitle** and click import
+* paste **https://github.com/hoangdat3430/microbit_sensor** and click import
 
 ## Blocks preview
 
