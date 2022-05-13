@@ -1,5 +1,5 @@
 
-> Open this page at [https://hoangdat3430.github.io/dndnuntitle/](https://hoangdat3430.github.io/microbit_sensor/)
+> Open this page at [https://hoangdat3430.github.io/microbit_sensor/](https://hoangdat3430.github.io/microbit_sensor/)
 
 ## Use as Extension
 
