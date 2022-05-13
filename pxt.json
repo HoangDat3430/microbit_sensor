@@ -1,5 +1,5 @@
 {
-    "name": "DNDNUntitle",
+    "name": "microbit_sensor",
     "description": "",
     "dependencies": {
         "core": "*",
