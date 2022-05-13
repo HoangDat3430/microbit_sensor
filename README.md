@@ -1,5 +1,5 @@
 
-> Open this page at [https://hoangdat3430.github.io/dndnuntitle/](https://hoangdat3430.github.io/dndnuntitle/)
+> Open this page at [https://hoangdat3430.github.io/dndnuntitle/](https://hoangdat3430.github.io/microbit_sensor/)
 
 ## Use as Extension
 
@@ -8,9 +8,9 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/hoangdat3430/dndnuntitle** and import
+* search for **https://github.com/hoangdat3430/microbit_sensor** and import
 
-## Edit this project ![Build status badge](https://github.com/hoangdat3430/dndnuntitle/workflows/MakeCode/badge.svg)
+## Edit this project ![Build status badge](https://github.com/hoangdat3430/microbit_sensor/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
