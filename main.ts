@@ -10,11 +10,24 @@ serial.onDataReceived(serial.delimiters(Delimiters.Hash), function () {
         pins.analogWritePin(AnalogPin.P6, 0)
     } else if (CMD == "B1") {
         pins.analogWritePin(AnalogPin.P6, 100)
+    } else if (CMD == "OPEN") {
+        pins.servoWritePin(AnalogPin.P7, 180)
+    } else if (CMD == "CLOSE") {
+        pins.servoWritePin(AnalogPin.P7, 0)
+    } else if (CMD == "P1") {
+        pins.digitalWritePin(DigitalPin.P8, 1)
+    } else if (CMD == "P0") {
+        pins.digitalWritePin(DigitalPin.P8, 0)
     }
 })
 let Gas = 0
 let CMD = ""
 NPNLCD.LcdInit()
+pins.digitalWritePin(DigitalPin.P5, 0)
+pins.digitalWritePin(DigitalPin.P4, 0)
+pins.analogWritePin(AnalogPin.P6, 0)
+pins.servoWritePin(AnalogPin.P7, 0)
+pins.digitalWritePin(DigitalPin.P8, 0)
 basic.forever(function () {
     NPNBitKit.DHT11Read(DigitalPin.P0)
     Gas = pins.digitalReadPin(DigitalPin.P2)
